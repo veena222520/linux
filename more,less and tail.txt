@@ -1,0 +1,23 @@
+tail
+
+ tail -10  /var/log/cloud-init.log -->to display any file last 10 lines
+
+tail -f /var/log/cloud-init.log  -> this will display last or running lines
+
+head
+
+ head -10 /var/log/cloud-init.log --> used to get first10 lines of a file
+
+cat /var/log/cloud-init.log   
+
+to disply file content in page wise when there are too many lines in a file
+more /var/log/cloud-init.log
+less /var/log/cloud-init.log
+
+
+
+
+
+
+
+

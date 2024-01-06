@@ -1,0 +1,12 @@
+this is learning about mkdir
+
+syntax
+
+mkdir dir1 --> to create dir1
+
+mkdir dir1 dir2 dir3 ---> multiple directories
+
+mkdir dir{1..10} --> to create dir1 to dir10
+
+mkdir -p /opt/dir1/dir2/dir3 --> this will create path of dirctories
+

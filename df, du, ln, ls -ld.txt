@@ -1,0 +1,39 @@
+history command
+  gives history of used commands
+
+
+df -h :- display file system
+gives a size used by file system
+
+
+du -sh
+gives disk utilisation of a file or directory
+
+Usage:
+
+du -sh --> Gives the current directory total utilization
+
+du -sh * --> it will list the each file and its size details in a current directory
+
+du -sh /opt/filename --> disaplyays the filename size
+
+
+
+Softlinks vs hard links:
+
+
+- softlink is basically symbolic link used to create the shortcuts for original file in other place.
+
+- hardlink is copy of a same file in other location
+
+- softlink file and original file size are differnt
+
+- if you delete the softlink no impact to original file
+
+usage:
+
+ln -s /opt/dir1/filename . --> it will crete the softlink in the current directory with the name as filename
+
+ln -s /opt/dir1/filename /opt/fil2 --> fil2 softlink created for filename
+
+display multiple files or directories in one go with command ---> ls -ld /opt/dir1/filename /opt/fil2

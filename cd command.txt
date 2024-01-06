@@ -1,0 +1,17 @@
+[root@ip-172-31-17-226 /]# cd /opt/dir
+dir1/ dir2/
+[root@ip-172-31-17-226 /]# cd /opt/dir1/dir3/
+[root@ip-172-31-17-226 dir3]# pwd
+/opt/dir1/dir3
+[root@ip-172-31-17-226 dir3]# cd
+[root@ip-172-31-17-226 ~]# pwd
+/root
+[root@ip-172-31-17-226 ~]# cd -
+/opt/dir1/dir3
+[root@ip-172-31-17-226 dir3]#
+
+
+cd --> will move to home dir or u can use cd ~
+cd .. --> will move to one dir back
+cd - --> switch between two dirs
+cd ../.. -->will move two dir back

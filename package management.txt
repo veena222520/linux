@@ -1,0 +1,60 @@
+package management
+
+1) rpm(redhat package management)-->in linux every package is the entension of .rpm
+ 
+usage-->  
+
+
+a) rpm -ivh rpmname.rpm --> to install an rpm. i -install,v- verbose, h --> hashes
+
+    rpm -ivh rpmname.rpm --nodeps --> install rpm without its dependencies
+
+b) rpm -uvh * --> upgrade an rpm from older version to new version
+
+c) rpm -qa  -->to display installed rpms q - query, a-- all
+
+eg:  rpm -qa |wc -l --> to display number of rpms installed. wc - word count , -l lines
+
+d) rpm -e rpmname -->to remove or erase rpm
+
+e) rpm -qf filename --> it will display the rpm used to install this filename or program
+
+eg: [root@ip-172-31-81-213 opt]# which mkdir    --> to find the absolute path of mkdir command
+/usr/bin/mkdir
+[root@ip-172-31-81-213 opt]# rpm -qf /usr/bin/mkdir  --> query the rpm name of mkdir command
+coreutils-8.32-30.amzn2023.0.3.x86_64
+
+
+2) yum --> yum is a package manager to install or remove or upgrade the packages with its dependecies.
+
+usage:
+
+yum install packagename --> install package
+
+yum remove packagename --> remove package
+
+yum update packagename --> update package
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

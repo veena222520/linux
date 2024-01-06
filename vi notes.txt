@@ -1,0 +1,9 @@
+vi notes
+ only use up arrow and down  arrow
+:wq! used to save and quit
+x  used to  remove a letter
+i  used to insert 
+u  used to undo
+dd to remove lines
+/ to search by a word (eg: /dir then press n to move in your search)
+always use esc to do two works 

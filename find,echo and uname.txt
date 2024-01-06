@@ -1,0 +1,21 @@
+find :- used to find a file or dir in the system
+usage:-
+
+find / -name cloud * -->this command will search the file under root file system
+
+find / -name cloud*.log -->search any cloud files with log 
+
+find /opt -name cloud*  --> search in /opt
+
+
+echo command:
+
+echo "message"  --> this would print the output as "message"
+
+echo /dev/null > /opt/filename --> to this zero the file with /dev/null to remove the file context as part of cleanup
+
+echo $? --> if your previously executed command is successful then it will return 0 otherwise 1 or other number
+
+
+uname --> print sys info
+uname -a --> gives the sys name kernal info and sys architecture i.e: 64bit (x86_64 x86_64 x86_64)  or 32 bit

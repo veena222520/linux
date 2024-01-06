@@ -1,0 +1,12 @@
+cat command 
+means concatenation
+syntax 
+
+cat filename -->to display content in a file filena
+cat filename -n --> to display line numbers
+cat > filename --> to add atext to the file or create a file with the content
+cat >> filename --> to append text to existing file
+
+ cat /opt/dir2/veena.txt directly u can go  to file created in dir2
+cat /proc/cpuinfo gives cpu info
+cat /proc/meminfo gives memory info

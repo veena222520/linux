@@ -1,0 +1,27 @@
+r=4,w=2,x=1
+
+file user rwx, grp=rx other rx
+
+
+chmod 755 file1
+
+chmod u+rwx,g+rx,o+rx file1
+
+chmod u-x file1
+
+cd dir1
+
+
+chmod -R 755 
+
+https://teams.live.com/l/invite/FAAICQOMHH_ejv7FgE
+
+https://intellipaat.com/blog/interview-question/linux-interview-questions/
+
+https://www.guru99.com/linux-interview-questions-answers.html
+
+https://mindmajix.com/linux-interview-questions#for-beginners
+
+https://www.youtube.com/watch?v=ZtqBQ68cfJc
+
+https://www.google.com/search?q=what+are+rpm%27s+in+linux&rlz=1C1UEAD_enUS1071US1071&oq=what+are+rpm%27s+in+linux&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhge0gEJMjc4MDFqMWo0qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:8867414d,vid:3I7c2ghP4KU,st:0

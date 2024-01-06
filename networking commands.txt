@@ -1,0 +1,31 @@
+networking commands
+
+1 )ifconfig -->to see the ip adress of a server or sys or host
+
+or 
+
+ip a
+
+or 
+
+hostname -i
+
+2) hostname --> to see the hostname of a server or sys or host
+
+3) ping ipadress --> to see the network response of a remote sys 
+
+4) route -n--> to see the gateway details
+
+ note : for every server to be on the network ipaddress,subnetmask and default gateway should be configured correctly to network interface 
+
+ehernet cards names --> eth0,eth1,en0,enX0
+
+
+5) nslookup --> to see the dns details for an IP or hostname. DNS --> domain namesservvice
+
+nslookup remoteserverhostname --> this will give IP address of the hostname which you give
+
+
+6. curl command to used to check the remote URL status
+
+usagae: curl -k https://google.com --> this means somehting in windows you check it in browser chrome
