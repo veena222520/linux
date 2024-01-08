@@ -29,3 +29,9 @@ nslookup remoteserverhostname --> this will give IP address of the hostname whic
 6. curl command to used to check the remote URL status
 
 usagae: curl -k https://google.com --> this means somehting in windows you check it in browser chrome
+
+7.netstat -anp --> used to know the different ports listening on the server
+
+8.netstat -anp | grep 22 --> gives the specific port 22 usage
+
+9.telnet <remote server ip adress or ip name>  portnum--> used to test the port is listening or not  
